@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Codeducation = () => {
   return (
-    <div className="py-32 p-16">
+    <div id="Education" className="py-32 p-16">
       <h1 className="text-4xl text-center mb-12 font-bold"> Education </h1>
       <div className="mt-8">
         <div className="flex text-2xl font-bold">

@@ -4,10 +4,14 @@ import Laura from "../media/laura.png"
 export const Presentation = () => {
   return (
     <>
-      <div className="hero min-h-screen bg-base-200">
+      <div id="Intro" className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="lcimg-container">
-            <img src={Laura} className="max-w-sm rounded-lg shadow-2xl lcimg" />
+            <img
+              src={Laura}
+              className="max-w-sm rounded-lg shadow-2xl lcimg"
+              alt="Laura's face"
+            />
           </div>
           <div>
             <h1 className="text-5xl font-bold">Who is Laura?</h1>
@@ -30,7 +34,9 @@ export const Presentation = () => {
               this profession and I hope that with this portfolio you will get a
               sense it too.
             </p>
-            <button className="btn btn-success hover:btn-accent">Get to know more</button>
+            <button className="btn btn-success hover:btn-accent">
+              Get to know more
+            </button>
           </div>
         </div>
       </div>

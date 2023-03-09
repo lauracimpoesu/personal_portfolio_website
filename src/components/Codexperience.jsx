@@ -2,7 +2,7 @@ import React from "react"
 
 export const Codexperience = () => {
   return (
-    <div className="bg-white py-32 p-16">
+    <div id="Experience" className="bg-white py-32 p-16">
       <h1 className="text-4xl text-center mb-12 font-bold"> Experience </h1>
       <div className="mt-8">
         <div className="flex text-2xl font-bold">

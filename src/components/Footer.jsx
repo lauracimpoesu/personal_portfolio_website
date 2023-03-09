@@ -4,7 +4,7 @@ import GIT from '../media/github.svg'
 
 export const Footer = () => {
   return (
-    <div>
+    <div id="Contacts">
       <footer className="footer p-10 bg-base-100 text-black">
         <div>
           <p className="font-bold text-2xl">Laura Cimpoesu</p>
@@ -17,11 +17,19 @@ export const Footer = () => {
         <div>
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
-            <a>
-              <img src={LI} className="w-14 h-14 cursor-pointer" />
+            <a href="https://www.linkedin.com/in/lauracimpoesu/">
+              <img
+                src={LI}
+                className="w-14 h-14 cursor-pointer"
+                alt="Laura's LI Profile"
+              />
             </a>
-            <a>
-              <img src={GIT} className="w-14 h-14 cursor-pointer" />
+            <a href="https://github.com/lauracimpoesu">
+              <img
+                src={GIT}
+                className="w-14 h-14 cursor-pointer"
+                alt="Laura's IG Profile"
+              />
             </a>
           </div>
         </div>

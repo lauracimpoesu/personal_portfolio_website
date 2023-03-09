@@ -3,7 +3,7 @@ import React from "react"
 export const Nav = () => {
   return (
     <>
-      <div className="navbar bg-base-100 font-bold">
+      <div id="Home" className="navbar bg-base-100 font-bold">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -14,7 +14,7 @@ export const Nav = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
+                <path 
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
@@ -27,10 +27,10 @@ export const Nav = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a href="#Home">Home</a>
               </li>
               <li tabIndex={0}>
-                <a className="justify-between">
+                <a href="#Home" className="justify-between">
                   About me
                   <svg
                     className="fill-current"
@@ -44,32 +44,29 @@ export const Nav = () => {
                 </a>
                 <ul className="p-2">
                   <li>
-                    <a>Expertise</a>
+                    <a href="#Education">Education</a>
                   </li>
                   <li>
-                    <a>Education</a>
-                  </li>
-                  <li>
-                    <a>Experience</a>
+                    <a href="#Experience">Experience</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Projects</a>
+                <a href="#Projects">Projects</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case md:text-xl">
+          <a href="#Home" className="btn btn-ghost normal-case md:text-xl">
             LC's Web Portfolio
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <a href="#Home">Home</a>
             </li>
             <li tabIndex={0}>
-              <a>
+              <a href="#Home">
                 About me
                 <svg
                   className="fill-current"
@@ -83,23 +80,20 @@ export const Nav = () => {
               </a>
               <ul className="p-2 bg-accent text-base-100">
                 <li>
-                  <a>Expertise</a>
+                  <a href="#Education">Education</a>
                 </li>
                 <li>
-                  <a>Education</a>
-                </li>
-                <li>
-                  <a>Experience</a>
+                  <a href="#Experience">Experience</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Projects</a>
+              <a href="#Projects">Projects</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-accent text-base-100">Grab my CV</a>
+          <a href="#Home" className="btn btn-accent text-base-100">Grab my CV</a>
         </div>
       </div>
     </>
