@@ -1,10 +1,10 @@
-import React from 'react'
-import Enel from '../media/enel.png'
-import Ten from '../media/ten.png'
-import Vt from '../media/vt.png'
-import Vy from '../media/vy.png'
-import Co from '../media/co.png'
-import Plc from '../media/plc.png'
+import React from "react"
+import Enel from "../media/enel.png"
+import Ten from "../media/ten.png"
+import Vt from "../media/vt.png"
+import Vy from "../media/vy.png"
+import Co from "../media/co.png"
+import Plc from "../media/plc.png"
 
 export const Projects = () => {
   return (

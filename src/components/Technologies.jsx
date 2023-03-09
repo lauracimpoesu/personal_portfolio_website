@@ -1,5 +1,5 @@
-import React from 'react'
-import TechStack from '../media/techstack.png'
+import React from "react"
+import TechStack from "../media/techstack.png"
 
 export const Technologies = () => {
   return (

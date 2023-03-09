@@ -1,6 +1,6 @@
-import React from 'react'
-import LI from '../media/li.svg'
-import GIT from '../media/github.svg'
+import React from "react"
+import LI from "../media/li.svg"
+import GIT from "../media/github.svg"
 
 export const Footer = () => {
   return (

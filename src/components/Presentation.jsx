@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import Laura from "../media/laura.png"
 
 export const Presentation = () => {
@@ -35,9 +35,9 @@ export const Presentation = () => {
               sense it too.
             </p>
             <a href="#Education">
-            <button className="btn btn-success hover:btn-accent">
-              Get to know more
-            </button>
+              <button className="btn btn-success hover:btn-accent">
+                Get to know more
+              </button>
             </a>
           </div>
         </div>

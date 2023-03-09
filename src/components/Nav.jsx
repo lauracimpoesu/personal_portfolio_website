@@ -1,5 +1,5 @@
 import React from "react"
-import CV from '../docs/cv.pdf'
+import CV from "../docs/cv.pdf"
 
 export const Nav = () => {
   return (
@@ -94,11 +94,7 @@ export const Nav = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a
-            className="btn btn-accent text-base-100"
-            href={CV}
-            download
-          >
+          <a className="btn btn-accent text-base-100" href={CV} download>
             Grab my CV
           </a>
         </div>
