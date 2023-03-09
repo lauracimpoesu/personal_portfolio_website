@@ -1,4 +1,5 @@
 import React from "react"
+import CV from '../docs/cv.pdf'
 
 export const Nav = () => {
   return (
@@ -14,7 +15,7 @@ export const Nav = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path 
+                <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
@@ -42,7 +43,7 @@ export const Nav = () => {
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </a>
-                <ul className="p-2">
+                <ul className="p-2 bg-base-100">
                   <li>
                     <a href="#Education">Education</a>
                   </li>
@@ -93,7 +94,13 @@ export const Nav = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="#Home" className="btn btn-accent text-base-100">Grab my CV</a>
+          <a
+            className="btn btn-accent text-base-100"
+            href={CV}
+            download
+          >
+            Grab my CV
+          </a>
         </div>
       </div>
     </>

@@ -19,7 +19,7 @@ export const Projects = () => {
             <h2 className="card-title">Enel</h2>
             <p>Utility Company</p>
             <div className="card-actions justify-end">
-              <a href="https://www.enelx.com">
+              <a href="https://www.enelx.com" target="_blank">
                 <button className="btn btn-warning">Show Live</button>
               </a>
             </div>
@@ -34,7 +34,7 @@ export const Projects = () => {
             <h2 className="card-title">Vite Trasformate</h2>
             <p>Christian Organisation</p>
             <div className="card-actions justify-end">
-              <a href="https://vitetrasformate.netlify.app">
+              <a href="https://vitetrasformate.netlify.app" target="_blank">
                 <button className="btn btn-warning">Show Live</button>
               </a>
             </div>
@@ -49,7 +49,7 @@ export const Projects = () => {
             <h2 className="card-title">Puppy Lyfe Co</h2>
             <p>E-commerce Business</p>
             <div className="card-actions justify-end">
-              <a href="https://www.puppylyfeco.com">
+              <a href="https://www.puppylyfeco.com" target="_blank">
                 <button className="btn btn-warning">Show Live</button>
               </a>
             </div>
@@ -66,7 +66,7 @@ export const Projects = () => {
             <h2 className="card-title">Traslochi Easy Nello</h2>
             <p>Moving & Storage Company</p>
             <div className="card-actions justify-end">
-              <a href="https://traslochieasynello.netlify.app">
+              <a href="https://traslochieasynello.netlify.app" target="_blank">
                 <button className="btn btn-warning">Show Live</button>
               </a>
             </div>
@@ -80,7 +80,7 @@ export const Projects = () => {
             <h2 className="card-title">Crypto Oracles</h2>
             <p>Web3 Start-up</p>
             <div className="card-actions justify-end">
-              <a href="https://www.cryptoracles.xyz">
+              <a href="https://www.cryptoracles.xyz" target="_blank">
                 <button className="btn btn-warning">Show Live</button>
               </a>
             </div>
@@ -94,7 +94,7 @@ export const Projects = () => {
             <h2 className="card-title">Vysiogen</h2>
             <p>Consultancy Agency #wip </p>
             <div className="card-actions justify-end">
-              <a href="https://www.vysiogen.com">
+              <a href="https://www.vysiogen.com" target="_blank">
                 <button className="btn btn-warning">Show Live</button>
               </a>
             </div>

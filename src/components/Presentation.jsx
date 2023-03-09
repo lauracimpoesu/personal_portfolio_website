@@ -34,9 +34,11 @@ export const Presentation = () => {
               this profession and I hope that with this portfolio you will get a
               sense it too.
             </p>
+            <a href="#Education">
             <button className="btn btn-success hover:btn-accent">
               Get to know more
             </button>
+            </a>
           </div>
         </div>
       </div>
