@@ -111,7 +111,7 @@ export const Projects = () => {
             <p>Consultancy Agency #wip </p>
             <div className="card-actions justify-end">
               <a
-                href="https://www.vysiogen.com"
+                href="https://vysiogen.netlify.app"
                 rel="noreferrer"
                 target="_blank"
               >
