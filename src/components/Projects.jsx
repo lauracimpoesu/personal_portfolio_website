@@ -108,7 +108,7 @@ export const Projects = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Vysiogen</h2>
-            <p>Consultancy Agency #wip </p>
+            <p>Consultancy Agency </p>
             <div className="card-actions justify-end">
               <a
                 href="https://vysiogen.netlify.app"
